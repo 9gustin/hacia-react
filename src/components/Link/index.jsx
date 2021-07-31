@@ -6,7 +6,7 @@ import './styles.css';
 function Link(props) {
   const { children, to } = props;
   return (
-    <a href={to} target="_blank" rel="noreferrer">
+    <a className="link" href={to} target="_blank" rel="noreferrer">
       {children}
     </a>
   );

@@ -5,4 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 50px 20px; 
+}
+
+* {
+  background-color: black;
+  color: white
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
 }
