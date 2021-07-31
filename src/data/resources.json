@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "name": "Recursos generales",
+      "links": [
+        {
+          "name": "Doc. Oficial React",
+          "url": "https://es.reactjs.org/docs/getting-started.html"
+        },
+        {
+          "name": "K.C.Dodds - The Beginner's Guide to React",
+          "url": "https://egghead.io/courses/the-beginner-s-guide-to-react"
+        },
+        {
+          "name": "Midudev - App React desde cero",
+          "url": "https://www.youtube.com/playlist?list=PLV8x_i1fqBw0B008sQn79YxCjkHJU84pC"
+        },
+        {
+          "name": "Midudev - Bootcamp React + Node",
+          "url": "https://www.youtube.com/watch?v=wTpuKOhGfJE&list=PLV8x_i1fqBw0Kn_fBIZTa3wS_VZAqddX7"
+        },
+        {
+          "name": "fullstackopen",
+          "url": "https://fullstackopen.com/en/part1"
+        }
+      ]
+    }
+  ]
+}
