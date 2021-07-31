@@ -1,6 +1,9 @@
 import React from 'react';
-import Paragraph from '../Paragraph';
+
 import Title from '../Title';
+
+import mockResponse from '../../data/challenges.json';
+import Link from '../Link';
 
 function Challenges() {
   return (
@@ -8,9 +11,15 @@ function Challenges() {
       <Title>
         Challenges
       </Title>
-      <Paragraph>
-        Pending...
-      </Paragraph>
+      <ul>
+        {mockResponse.data.map((challenge) => (
+          <li key={challenge.name}>
+            <Link to={challenge.url}>
+              {challenge.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </section>
   );
 }
