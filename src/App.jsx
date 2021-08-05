@@ -3,6 +3,8 @@ import { Link } from 'wouter';
 
 import { PATHS } from './components/Router/paths';
 
+import './index.css';
+
 function App() {
   return (
     <div>

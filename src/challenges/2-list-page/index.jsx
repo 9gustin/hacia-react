@@ -1,11 +1,17 @@
 import React from 'react';
 
-function Challenge2() {
+import Header from './components/Header';
+import List from './components/List';
+
+import './styles.css';
+
+function App() {
   return (
-    <div>
-      Challenge2
+    <div className="container">
+      <Header />
+      <List />
     </div>
   );
 }
 
-export default Challenge2;
+export default App;

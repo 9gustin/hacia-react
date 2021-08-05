@@ -1,0 +1,14 @@
+.list {
+  padding: 0;
+}
+
+.list li {
+  text-align: left;
+  list-style: none;
+  padding: 10px;
+}
+
+.list li::before {
+  content: '🐈';
+  margin-right: 10px;
+}
