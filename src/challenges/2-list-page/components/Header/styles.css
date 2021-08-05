@@ -4,6 +4,7 @@
 
 .header > .form > input {
   width: 80%;
+  outline: none;
 }
 
 .header > .form > * {
@@ -14,4 +15,16 @@
 
 .status-emoji {
   font-size: 40px;
+}
+
+.correct {
+  border: 2px solid greenyellow;
+}
+
+.default {
+  border: 2px solid violet;
+}
+
+.error {
+  border: 2px solid red;
 }
