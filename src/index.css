@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
 html, body {
   height: 100vh;
   overflow: hidden;
@@ -11,6 +13,7 @@ body {
 * {
   color: white;
   box-sizing: border-box;
+  font-family: 'Recursive', sans-serif;
 }
 
 :any-link,

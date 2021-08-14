@@ -1,0 +1,19 @@
+.options {
+  display: grid;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.options.two-columns {
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.options.three-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.options li, .option {
+  width: 100%;
+}

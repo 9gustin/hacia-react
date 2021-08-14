@@ -4,7 +4,7 @@ import React, { useState, useRef } from 'react';
 
 import './styles.css';
 
-function Header({ agregarDato }) {
+function Header({ agregarDato, toggleEditing, editing }) {
   const [status, setStatus] = useState('default');
   const inputRef = useRef();
 
@@ -30,22 +30,6 @@ function Header({ agregarDato }) {
     }, 3000);
   };
 
-  // if (status === 'default') {
-  //   setStatus('error');
-  // }
-  // if (status === 'correct') {
-  //   agregarDato(inputRef.current.value.trim());
-  //   setStatus('default');
-  //   inputRef.current.value = null;
-  // }
-  // const handleChange = () => {
-  //   if (inputRef.current.value.trim() !== '') {
-  //     setStatus('correct');
-  //   } else {
-  //     setStatus('error');
-  //   }
-  // };
-
   return (
     <header className="header">
       <div className="status-emoji">{CAT[status]}</div>
@@ -53,13 +37,16 @@ function Header({ agregarDato }) {
       <form className="form" onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Add your cat fact"
+          placeholder="Agrega tu dato"
           ref={inputRef}
           className={status}
-          // onChange={handleChange}
+          disabled={editing}
         />
-        <button type="submit">Add</button>
+        <button type="submit" disabled={editing}>Agregar</button>
       </form>
+      <button className="toggle-btn" type="button" onClick={toggleEditing}>
+        {editing ? 'Continuar creando datos' : 'Editar tema'}
+      </button>
     </header>
   );
 }
