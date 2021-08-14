@@ -1,5 +1,21 @@
+/* Theme colors */
+body {
+  --theme-color: #4d262e;
+  --main-color: rgba(0,0,0, 0.7);
+  --secondary-color: white;
+}
+
+/* Stylesheet */
+body {
+  background-color: var(--theme-color);
+}
+
+* {
+  color: var(--secondary-color);
+}
+
 .container {
-  background-color: rgba(0,0,0, 0.7);
+  background-color: var(--main-color);
   border-radius: 10px;
   margin: 50px auto;
   max-width: 600px;
