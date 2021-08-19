@@ -4,21 +4,20 @@ export const THEMES = [
   },
   {
     name: 'Claro',
-    className: 'light-theme',
+    className: 'light',
   },
 ];
 
 export const APPEARANCE = [
   {
     name: 'Rojo',
-    className: 'red-appearance',
   },
   {
     name: 'Verde',
-    className: 'green-appearance',
+    className: 'green',
   },
   {
     name: 'Naranja',
-    className: 'orange-appearance',
+    className: 'orange',
   },
 ];

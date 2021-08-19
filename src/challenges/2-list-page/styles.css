@@ -4,6 +4,16 @@ body {
   --main-color: rgba(0,0,0, 0.7);
   --secondary-color: white;
 }
+body.light {
+  --main-color: white;
+  --secondary-color: rgba(0,0,0, 0.7);
+}
+body.orange {
+  --theme-color: orange;
+}
+body.green {
+  --theme-color: green;
+}
 
 /* Stylesheet */
 body {
